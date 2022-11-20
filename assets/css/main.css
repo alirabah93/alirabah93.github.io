@@ -13,16 +13,23 @@
 .text1 {
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 }
 
 .chooseBlue {
 	color: blue;
 	font-weight: bold;
+	text-shadow: 1px 1px #000000;
+	text-align: center;
+	flex: 1;
 }
 
 .chooseRed {
 	color: red;
 	font-weight: bold;
+	text-align: center;
+	flex: 1;
+	text-shadow: 1px 1px #000000;
 }
 
 .pills {
